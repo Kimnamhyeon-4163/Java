@@ -2,10 +2,12 @@ package sub3;
 
 public class CCC extends BBB {
 
+	/*
+	 * 부모클래스 BBB의 method1에 final 선언으로 Override를 할수없다.
 	@Override
 	public void method1() {
 		System.out.println("CCC - method1...");
-	}
+	}*/
 	@Override
 	public void method2() {
 		System.out.println("CCC - method2...");
