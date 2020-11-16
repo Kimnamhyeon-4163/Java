@@ -12,7 +12,7 @@ public class JavaTest3 {
 		for (int i = 0; i < 10; i++) {
 			System.out.print(arr[i]+",");
 		}
-		System.out.println("\n");
+		System.out.print("\n");
 		for (int j = 0; j < 5; j++) {
 			int temp =arr[j];
 			arr[j]=arr[9-j];
