@@ -4,12 +4,12 @@ package sub1;
 /**
  * 날짜 : 2020/11/3
  * 이름 : 김남현
- * 내용 : ������ �ǽ��ϱ� ���� p52
+ * 내용 : 연산자 실습하기 교재 p52
  */
 public class OperatorTest {
 
 	public static void main(String[] args) {
-		//��� ������
+		//산술 연산자
 		int num1 =1; 
 		int num2 =2;
 		int num3 =3; 
@@ -18,13 +18,13 @@ public class OperatorTest {
 		int rs2 = num1 - num2;
 		int rs3 = num2 * num3;
 		int rs4 = num4 / num2;
-		int rs5 = num4 % num3;//�������� ���ϴ� ������
+		int rs5 = num4 % num3;//나머지를 구하는 연산자
 		System.out.println("rs1 : "+rs1);
 		System.out.println("rs2 : "+rs2);
 		System.out.println("rs3 : "+rs3);
 		System.out.println("rs4 : "+rs4);
 		System.out.println("rs5 : "+rs5);
-		//����, ���� ������
+		//증감, 감소 연산자
 		int n1= 1, n2 = 2;
 		
 		n1++;
@@ -35,7 +35,7 @@ public class OperatorTest {
 		System.out.println("n1 :"+n1);
 		System.out.println("n2 :"+n2);
 		
-		//���մ��� ������
+		//복합대입 연산자
 		int no1 =1;
 		int no2 =2;
 		int no3 =3;
@@ -52,16 +52,16 @@ public class OperatorTest {
 		System.out.println("no4 : "+no4);
 		
 		
-		//�� ������
+		//비교 연산자
 		int var1 = 1;
 		int var2 = 2;
 		
-		boolean res1 = (var1 > var2);//vardl var2���� ũ��
-		boolean res2 = (var1 < var2);//�۴�
-		boolean res3 = (var1 >= var2);//ũ�ų� ����
-		boolean res4 = (var1 <= var2);//�۰ų� ����
-		boolean res5 = (var1 == var2);//���� ����
-		boolean res6 = (var1 != var2);//���� �ٸ���
+		boolean res1 = (var1 > var2);//var1이 var2보다 크다.
+		boolean res2 = (var1 < var2);//var1이 var2보다 작다.
+		boolean res3 = (var1 >= var2);//var1이 var2보다 크거나 작다.
+		boolean res4 = (var1 <= var2);//var1이 var2보다 작거나 같다.
+		boolean res5 = (var1 == var2);//var1이 var2와 같다.
+		boolean res6 = (var1 != var2);//var1와 var2이 서로 다르다.
 		
 		System.out.println("res1 : "+res1);
 		System.out.println("res2 : "+res2);
@@ -69,18 +69,18 @@ public class OperatorTest {
 		System.out.println("res4 : "+res4);
 		System.out.println("res5 : "+res5);
 		System.out.println("res6 : "+res6);
-		//�� ������
+		//논리 연산자
 		
-		boolean result1 = (var1 > 1) && (var2 < 3); // var1�� 1���� ũ�� �׸��� var2�� 3���� �۴�.
-		// F=F+T �ϳ��� F�� F��
-		boolean result2 = (var1 > 0) && (var2 < 3); // var1�� 0���� ũ�� �׸��� var2�� 3���� �۴�.
-		// T=T+Ture
-		boolean result3 = (var1 > 1) || (var2 < 3); // var1�� 1���� ũ�� �Ǵ� var2�� 3���� �۴�.
-		//T= F+T �ϳ��� T�� T��
-		boolean result4 = (var1 > 1) || (var2 < 2); // var1�� 1���� ũ�� �Ǵ� var2�� 2���� �۴�.
+		boolean result1 = (var1 > 1) && (var2 < 3); // var1은 1보다 크고 그리고 var2는 3보다 작다.
+		// F=F+T 
+		boolean result2 = (var1 > 0) && (var2 < 3); // var1은 0보다 크고 그리고 var2는 3보다 작다. 
+		// T=T+True
+		boolean result3 = (var1 > 1) || (var2 < 3); // var1는 1보다 크고 또는 var2는 3보다 작다.
+		//T= F+T 
+		boolean result4 = (var1 > 1) || (var2 < 2); // var1는 1보다 크고 또는 var2는 2보다 작다.
 		//F= F+False
-		boolean result5 = !(var1 > var2); // var1�� var2���� ũ�� �ʴ�.
-		//T = !(F) ���� �����ε� �����̸� T�̴�
+		boolean result5 = !(var1 > var2); // var1는 var2보다 크지 않다.
+		//T = !(F) 
 		System.out.println("result1 : " +result1);
 		System.out.println("result2 : " +result2);
 		System.out.println("result3 : " +result3);
