@@ -2,13 +2,13 @@ package sub1;
 /**
  * 날짜 : 2020/11/4
  * 이름 : 김남현
- * 내용 : �迭 �ǽ��ϱ�p108 
+ * 내용 : 배열 실습하기 p108 
  */
 public class ArrayTest {
 
 	public static void main(String[] args) {
 		
-		//����(Variable)
+		//변수(Variable)
 		
 		int num1 = 1;
 		int num2 = 2;
@@ -17,42 +17,42 @@ public class ArrayTest {
 		int num5 = 5;
 		
 		
-		//�迭(Array)
+		//배열(Array)
 		int[] nums = {1, 2, 3, 4, 5};
 		
-		//�迭�� ����
+		//배열의 길이
 		
-		System.out.println("�迭 nums�� ���� : "+nums.length);
+		System.out.println("배열 nums의 길이 : "+nums.length);
 		
-		//�迭 ���� ���
-		System.out.println("�迭�� nums�� 1��° ���� : "+nums[0]);
-		System.out.println("�迭�� nums�� 2��° ���� : "+nums[1]);
-		System.out.println("�迭�� nums�� 3��° ���� : "+nums[2]);
-		System.out.println("�迭�� nums�� 4��° ���� : "+nums[3]);
-		System.out.println("�迭�� nums�� 5��° ���� : "+nums[4]);
+		//배열 원소 출력
+		System.out.println("배열 nums의 1번째 원소 : "+nums[0]);
+		System.out.println("배열 nums의 2번째 원소 : "+nums[1]);
+		System.out.println("배열 nums의 3번째 원소 : "+nums[2]);
+		System.out.println("배열 nums의 4번째 원소 : "+nums[3]);
+		System.out.println("배열 nums의 5번째 원소 : "+nums[4]);
 		
 		for(int i=0 ; i<nums.length ; i++) {
-			System.out.println("�迭 nums["+i+"] : "+nums[i]);
+			System.out.println("배열 nums["+i+"] : "+nums[i]);
 		}
 		
-		//�迭�� �ݺ���
+		//배열 반복문
 		for(int num : nums) {
 			
 			
-			System.out.println("�迭 nums�� ���� : "+num);
+			System.out.println("배열 nums의 원소 : "+num);
 		}
 		
-		//Ȯ�ι���
-		String person2 = "������";
-		String person3 = "�庸��";
-		String person4 = "������";
-		String person1 = "������";
-		String person5 = "�̼���";
+		//확인 문제
+		String person1 = "김유신";
+		String person2 = "김춘추";
+		String person3 = "장보고";
+		String person4 = "강감찬";
+		String person5 = "이순신";
 		
-		String[] people = {"������","������", "�庸��", "������", "�̼���"};
+		String[] people = {"김유신","김춘추", "장보고", "강감찬", "이순신"};
 		
 			for(String person : people) {
-				System.out.println("�迭 people ���� : "+person);
+				System.out.println("배열 people 원소 : "+person);
 		}
 		
 	}

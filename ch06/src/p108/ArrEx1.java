@@ -7,7 +7,7 @@ public class ArrEx1 {
 		int[] arrInt;
 		int arrInt2[] = null;
 
-		System.out.println(arrInt[0]);
+	//	System.out.println(arrInt[0]);
 		System.out.println(arrInt2[0]);
 	}
 }
