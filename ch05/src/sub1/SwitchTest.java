@@ -4,54 +4,54 @@ import java.util.Scanner;
 
 /*
  * 날짜 : 2020/11/3
- * 이름 : 김남
- * 내용 : ���ǹ� Switch �ǽ��ϱ� ���� p86
+ * 이름 : 김남현
+ * 내용 : 조건문 Switch문 실습하기 p86
  */
 public class SwitchTest {
 
 	public static void main(String[] args) {
 		
-		//Ȧ�� ¦�� �Ǻ��ϱ�
+		//짝수 , 홀수 판별하기
 		int num =7;
 		int result =num % 2;
 		
 		switch(result) {
 		
 		case 0:
-			System.out.println("num�� ¦�� �Դϴ�.");
+			System.out.println("num은 짝수입니다.");
 			break;
 			
 		case 1:
-			System.out.println("num�� Ȧ�� �Դϴ�.");
+			System.out.println("num은 홀수 입니다.");
 			break;
 			
 		}
 		
-		//��������
+		//연습문제
 		Scanner sc = new Scanner(System.in);
-		System.out.print("���� �Է� : ");
+		System.out.print("점수 입력 : ");
 		
 		int score = sc.nextInt();
-		System.out.println("�Է� ���� : "+score);
+		System.out.println("입력 점수 : "+score);
 		
-		//switch�� case�� �̿��Ͽ� ���ǹ��� �����
+		//switch문 case
 		int rs = score /10;
 		switch(rs) {
 		case 10:
 		case 9:
-			System.out.println("A �Դϴ�.");
+			System.out.println("A 입니다.");
 			break;
 		case 8:
-			System.out.println("B �Դϴ�.");
+			System.out.println("B 입니다.");
 			break;
 		case 7:
-			System.out.println("C �Դϴ�.");
+			System.out.println("C 입니다.");
 			break;
 		case 6:
-			System.out.println("D �Դϴ�.");
+			System.out.println("D 입니다.");
 			break;
 		default:
-			System.out.println("F �Դϴ�.");
+			System.out.println("F 입니다.");
 			break;
 		
 	}
