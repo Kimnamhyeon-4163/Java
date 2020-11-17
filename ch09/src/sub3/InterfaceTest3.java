@@ -14,7 +14,7 @@ public class InterfaceTest3 {
 		 Cablbe socket= new Cable(bulb);
 		 
 		 socket.switchOn();
-		 socket.switchOff():
+		 socket.switchOff();
 	}
 
 }
